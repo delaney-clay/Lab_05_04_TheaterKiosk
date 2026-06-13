@@ -10,6 +10,7 @@ public class TheaterKiosk {
         System.out.print("Please enter your age: ");
         if(in.hasNextInt())
         {
+            age = in.nextInt();
             if(age >= 21)
             {
                 System.out.println("You get a wristband!");
